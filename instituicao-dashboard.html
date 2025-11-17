@@ -1,0 +1,312 @@
+<!-- ========================================= -->
+<!--instituicao-dashboard.html — Sponsor Angels-->
+<!-- ========================================= -->
+<!----------Autor: Elarssen Code Solutions------->
+<!-- ========================================= -->
+<!-------------------Versão: 1.0----------------->
+<!-- ========================================= -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sponsor Angels - Painel da Instituição</title>
+    <!-- ARQUIVOS CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <!-- MATERIAL ICON CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/sponsor-angels-logo-branco.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <!---------- ASIDE ---------->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/images/sponsor-angels-logo.png" alt="Logotipo">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Visão Geral</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Itens Recebidos</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">group</span>
+                    <h3>Alunos Beneficiados</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">business</span>
+                    <h3>Empresas Parceiras</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail_outline</span>
+                    <h3>Mensagens</h3>
+                    <span class="mensagens">9</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <h3>Relatórios</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Configurações</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+        <!---------- FIM DO ASIDE ---------->
+
+        <!---------- MAIN ---------->
+        <main>
+            <h1>Painel da Instituição</h1>
+
+            <div class="date">
+                <input type="date" />
+            </div>
+
+            <!---------- INSIGHTS ---------->
+            <div class="insights">
+                <!---------- Itens Recebidos ---------->
+                <div class="sales">
+                    <span class="material-icons-sharp">inventory_2</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Itens Recebidos</h3>
+                            <h1>54</h1>
+                            <h2>87%</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <defs>
+                                    <linearGradient id="grad-sales" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#7380ec;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#41f1b6;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="45" cy="45" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>87%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Meta mensal</small>
+                </div>
+
+                <!---------- Alunos Impactados ---------->
+                <div class="expenses">
+                    <span class="material-icons-sharp">school</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Alunos Impactados</h3>
+                            <h1>128</h1>
+                            <h2>74%</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <defs>
+                                    <linearGradient id="grad-expenses" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#ff7782;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#ffbb55;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="45" cy="45" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>74%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Meta de alunos beneficiados</small>
+                </div>
+
+                <!---------- Empresas Parceiras ---------->
+                <div class="income">
+                    <span class="material-icons-sharp">business</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Empresas Parceiras</h3>
+                            <h1>9</h1>
+                            <h2>61%</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <defs>
+                                    <linearGradient id="grad-income" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#41f1b6;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#7380ec;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="45" cy="45" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>61%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Meta de parcerias</small>
+                </div>
+            </div>
+            <!---------- FIM DO INSIGHTS ---------->
+
+            <!---------- RELATÓRIO DE DOAÇÕES ---------->
+            <div class="recent-orders">
+                <h2>Itens Recebidos Recentemente</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>ID</th>
+                            <th>Empresa Doadora</th>
+                            <th>Status</th>
+                            <th>Confirmação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Impressora HP</td>
+                            <td>D3021</td>
+                            <td>Ambev</td>
+                            <td class="verde">Entregue</td>
+                            <td class="azul">Confirmar</td>
+                        </tr>
+                        <tr>
+                            <td>Tablet Samsung</td>
+                            <td>D3022</td>
+                            <td>Braskem</td>
+                            <td class="amarelo">Aguardando recebimento</td>
+                            <td class="azul">Confirmar</td>
+                        </tr>
+                        <tr>
+                            <td>Kit Arduino</td>
+                            <td>D3023</td>
+                            <td>TechCorp</td>
+                            <td class="verde">Entregue</td>
+                            <td class="azul">Confirmar</td>
+                        </tr>
+                        <tr>
+                            <td>Projetor Epson</td>
+                            <td>D3024</td>
+                            <td>Vivo</td>
+                            <td class="vermelho">Pendente</td>
+                            <td class="azul">Confirmar</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Ver todos os registros</a>
+            </div>
+        </main>
+        <!---------- FIM DO MAIN ---------->
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>ETEC Diadema</b></p>
+                        <small class="text-muted">Instituição</small>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- ATUALIZAÇÕES RECENTES ---------->
+            <div class="recent-updates">
+                <h2>Atualizações Recentes</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="message">
+                            <p><b>Ambev</b> enviou confirmação de coleta de 3 monitores doados.</p>
+                            <small class="text-muted">Há 10 minutos</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="message">
+                            <p><b>Aluna Maria Silva</b> iniciou curso utilizando o <b>notebook doado</b>.</p>
+                            <small class="text-muted">Há 2 horas</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="message">
+                            <p><b>Empresa TechCorp</b> solicitou feedback sobre os <b>equipamentos entregues</b>.</p>
+                            <small class="text-muted">Há 4 horas</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="message">
+                            <p><b>Instituto Saber+</b> recebeu um novo <b>kit técnico de eletrônica</b>.</p>
+                            <small class="text-muted">Ontem</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- ANÁLISES DE IMPACTO ---------->
+            <div class="sales-analytics">
+                <h2>Análises de Impacto</h2>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">inventory_2</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ITENS PENDENTES DE CONFIRMAÇÃO</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="vermelho">-8%</h5>
+                    </div>
+                </div>
+
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">emoji_people</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>ALUNOS ATIVOS NO PROGRAMA</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="verde">+22%</h5>
+                    </div>
+                </div>
+
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add_task</span>
+                        <h3>Confirmar Recebimento</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ARQUIVOS JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/dashboard-auth.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>

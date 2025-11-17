@@ -1,0 +1,103 @@
+<!-- ========================================= -->
+<!----registro-empresa.html — Sponsor Angels----->
+<!-- ========================================= -->
+<!----------Autor: Elarssen Code Solutions------->
+<!-- ========================================= -->
+<!-------------------Versão: 1.0----------------->
+<!-- ========================================= -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Empresa</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <script type="text/javascript" src="/js/login.js" defer></script>
+    <link rel="shortcut icon" href="/images/sponsor-angels-logo-branco.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Cadastro de Empresa</h1>
+
+        <form id="form-registro-empresa">
+            <!-- Nome da Empresa -->
+            <div>
+                <label for="firstname-input">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Z" />
+                    </svg>
+                </label>
+                <input type="text" name="firstname" id="nomeEmpresa" placeholder="Nome da Empresa">
+            </div>
+
+            <!-- CNPJ -->
+            <div>
+                <label for="email-input">
+                    <span>@</span>
+                </label>
+                <input type="text" name="cnpj" id="cnpjEmpresa" placeholder="CNPJ">
+            </div>
+
+            <!-- Email corporativo -->
+            <div>
+                <label for="email-corporativo">
+                    <span>@</span>
+                </label>
+                <input type="email" name="email-corporativo" id="emailEmpresa" placeholder="Email Corporativo">
+            </div>
+
+            <!-- Telefone de contato -->
+            <div>
+                <label for="telefone-input">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="M640-40q-108 0-207-44T268-204q-79-79-123-178T101-588q0-31 19.5-51.5T172-660h98q28 0 46 18t18 46q0 16-6 28t-14 20l-57 54q23 54 55 101t75 85q40 40 86 74t99 58l56-60q11-11 23-15.5t28-4.5q28 0 46 18t18 46v94q0 33-21 52.5T640-40Z" />
+                    </svg>
+                </label>
+                <input type="tel" name="telefone" id="telefone-input" placeholder="Telefone de Contato">
+            </div>
+
+            <!-- Endereço da empresa -->
+            <div>
+                <label for="endereco-input">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="M480-80q-19 0-35-7t-29-18L144-404q-12-12-18-28t-6-34v-348q0-33 23.5-56.5T200-894h560q33 0 56.5 23.5T840-814v348q0 18-6 34t-18 28L544-105q-13 11-29 18t-35 7Z" />
+                    </svg>
+                </label>
+                <input type="text" name="endereco" id="endereco-input" placeholder="Endereço da Empresa">
+            </div>
+
+            <!-- Senha -->
+            <div>
+                <label for="password-input">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm240-200q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z" />
+                    </svg>
+                </label>
+                <input type="password" name="password" id="senhaEmpresa" placeholder="Senha">
+            </div>
+
+            <!-- Repetir senha -->
+            <div>
+                <label for="repeat-password-input">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                        <path
+                            d="M240-80q-33 0-56.5-23.5T160-160v-400q0-33 23.5-56.5T240-640h40v-80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720v80h40q33 0 56.5 23.5T800-560v400q0 33-23.5 56.5T720-80H240Zm240-200q33 0 56.5-23.5T560-360q0-33-23.5-56.5T480-440q-33 0-56.5 23.5T400-360q0 33 23.5 56.5T480-280ZM360-640h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z" />
+                    </svg>
+                </label>
+                <input type="password" name="repeat-password" id="repeat-password-input" placeholder="Confirmar Senha">
+            </div>
+
+            <button type="submit">Registrar Empresa</button>
+        </form>
+
+        <p>Já possui uma conta? <a href="login.html">Fazer Login</a></p>
+    </div>
+</body>
+
+</html>

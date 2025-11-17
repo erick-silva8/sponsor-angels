@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Sponsor Angels - Painel Administrativo</title>
+    <!-- CSS FILES -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <!-- MATERIAL ICON CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/sponsor-angels-logo-branco.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <!---------- ASIDE ---------->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="/images/sponsor-angels-logo.png" alt="Logotipo">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Visão Geral</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">groups</span>
+                    <h3>Usuários Cadastrados</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Doações Registradas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">domain</span>
+                    <h3>Empresas Parceiras</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">school</span>
+                    <h3>Instituições</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <h3>Relatórios Gerais</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Configurações</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Sair</h3>
+                </a>
+            </div>
+        </aside>
+        <!---------- FIM DO ASIDE ---------->
+
+        <!---------- MAIN ---------->
+        <main>
+            <h1>Painel Administrativo</h1>
+
+            <div class="date">
+                <input type="date" />
+            </div>
+
+            <!---------- INSIGHTS ---------->
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">groups</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total de Usuários</h3>
+                            <h1>743</h1>
+                            <h2>92%</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <defs>
+                                    <linearGradient id="grad-sales" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#7380ec;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#41f1b6;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="45" cy="45" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>92%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Meta de engajamento</small>
+                </div>
+
+                <div class="expenses">
+                    <span class="material-icons-sharp">volunteer_activism</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Doações Aprovadas</h3>
+                            <h1>289</h1>
+                            <h2>70%</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <defs>
+                                    <linearGradient id="grad-expenses" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#ff7782;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#ffbb55;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="45" cy="45" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>70%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Doações validadas no sistema</small>
+                </div>
+
+                <div class="income">
+                    <span class="material-icons-sharp">handshake</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Parcerias Ativas</h3>
+                            <h1>42</h1>
+                            <h2>56%</h2>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <defs>
+                                    <linearGradient id="grad-income" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="0%" style="stop-color:#41f1b6;stop-opacity:1" />
+                                        <stop offset="100%" style="stop-color:#7380ec;stop-opacity:1" />
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="45" cy="45" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>56%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Empresas e instituições ativas</small>
+                </div>
+            </div>
+            <!---------- FIM DO INSIGHTS ---------->
+
+
+
+            <!---------- TABELA DE DOAÇÕES ---------->
+            <div class="recent-orders">
+                <h2>Doações em Análise</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>ID</th>
+                            <th>Empresa</th>
+                            <th>Instituição</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monitor Dell</td>
+                            <td>D4001</td>
+                            <td>Ambev</td>
+                            <td>ETEC São Bernardo</td>
+                            <td class="amarelo">Pendente</td>
+                        </tr>
+                        <tr>
+                            <td>Notebook Lenovo</td>
+                            <td>D4002</td>
+                            <td>Braskem</td>
+                            <td>Instituto Saber+</td>
+                            <td class="verde">Aprovado</td>
+                        </tr>
+                        <tr>
+                            <td>Headsets Logitech</td>
+                            <td>D4003</td>
+                            <td>Vivo</td>
+                            <td>Colégio Horizonte</td>
+                            <td class="vermelho">Revisão</td>
+                        </tr>
+                        <tr>
+                            <td>Projetor Epson</td>
+                            <td>D4004</td>
+                            <td>Petrobras</td>
+                            <td>Escola Técnica ABC</td>
+                            <td class="verde">Aprovado</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Ver todas as solicitações</a>
+            </div>
+        </main>
+        <!---------- FIM DO MAIN ---------->
+
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Administrador</b></p>
+                        <small class="text-muted">Painel Geral</small>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- ATUALIZAÇÕES RECENTES ---------->
+            <div class="recent-updates">
+                <h2>Atividades Recentes</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="message">
+                            <p><b>ETEC Diadema</b> confirmou o recebimento de 10 tablets Samsung.</p>
+                            <small class="text-muted">Há 5 minutos</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="message">
+                            <p><b>Ambev</b> cadastrou uma nova doação de 20 notebooks Dell.</p>
+                            <small class="text-muted">Há 40 minutos</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="message">
+                            <p><b>Instituto Saber+</b> enviou relatório de impacto do mês.</p>
+                            <small class="text-muted">Há 2 horas</small>
+                        </div>
+                    </div>
+
+                    <div class="update">
+                        <div class="message">
+                            <p><b>Admin</b> aprovou 3 novas parcerias empresariais.</p>
+                            <small class="text-muted">Ontem</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!---------- ANÁLISES DO SISTEMA ---------->
+            <div class="sales-analytics">
+                <h2>Análises do Sistema</h2>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">warning</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>DOAÇÕES PENDENTES DE REVISÃO</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="vermelho">-5%</h5>
+                    </div>
+                </div>
+
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">groups</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>NOVOS USUÁRIOS CADASTRADOS</h3>
+                            <small class="text-muted">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="verde">+18%</h5>
+                    </div>
+                </div>
+
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">check_circle</span>
+                        <h3>Aprovar Doações</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/dashboard-auth.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>
