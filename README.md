@@ -2,9 +2,9 @@
 
 📘 Projeto desenvolvido nas disciplinas:
 
-• Engenharia de Software I – Prof. Lucio Nunes
-• Desenvolvimento Web I – Prof. Dr. Bruno Zolotareff
-• Design Digital – Profª Patrícia Gallo
+• Engenharia de Software I – Prof. Lucio Nunes <br>
+• Desenvolvimento Web I – Prof. Dr. Bruno Zolotareff <br>
+• Design Digital – Profª Patrícia Gallo <br>
 
 ![Preview do Projeto](/images/screenshot-readme.png)
 
