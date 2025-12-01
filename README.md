@@ -9,12 +9,18 @@
 
 ![Preview do Projeto](/images/screenshot-readme.png)
 
-> **Sponsor Angels** é uma plataforma que conecta **empresas** e **instituições de ensino de tecnologia**, criando um ciclo de doações responsável, auditável e eficiente, para que **alunos de cursos técnicos e superiores de TI** tenham acesso aos itens tecnológicos que precisam para evoluir academicicamente e ingressar no mercado de trabalho.
+> **Sponsor Angels** é uma plataforma que conecta **empresas** e **instituições de ensino de tecnologia**, criando um ciclo de doações responsável, auditável e eficiente, para que **alunos de cursos técnicos e superiores de TI** tenham acesso aos itens tecnológicos que precisam para evoluir academicamente e ingressar no mercado de trabalho.
 
 ---
 
 ## 🚀 **Acesse o Projeto**
 🔗 **[Clique aqui para acessar a plataforma](https://sponsor-angels.netlify.app/)**  
+
+---
+
+## 📄 **Documentação do Projeto (PDF)**  
+📘 **[Clique aqui para visualizar o PDF da documentação](./docs/documentacao-sponsor-angels.pdf)**  
+*(Adicione seu arquivo .pdf na pasta `/docs` do repositório e mantenha o mesmo nome.)*
 
 ---
 
